@@ -3,55 +3,42 @@
 @tailwind utilities;
 
 .logo {
-  background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
-  width: 100%;
-  background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  /* height: 250px; */
+  width: 100px;
 }
 
 .splash_img {
   background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
+  /* height: 150vh;
   width: 100%;
   background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  background-position: 25% 0%; */
 }
 
 .arrow {
   background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
+  /* height: 150vh;
   width: 100%;
-  background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  background-size: cover; */
 }
 
 .programs {
   background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
+  /* height: 150vh;
   width: 100%;
-  background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  background-size: cover; */
 }
 
 .profile_img {
   background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
+  /* height: 150vh;
   width: 100%;
-  background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  background-size: cover; */
 }
 
 .arrow_top {
   background-image: url(../img/komprimeret_splash.webp);
-  height: 150vh;
+  /* height: 150vh;
   width: 100%;
-  background-size: cover;
-  background-position: 25% 0%;
-  text-align: start;
+  background-size: cover; */
 }
