@@ -4,7 +4,21 @@
 
 .logo {
   /* height: 250px; */
+  background-size: cover;
   width: 100px;
+  background-position: 50%;
+}
+
+.w-full {
+  display: none;
+}
+@media (min-width: 640px) {
+  .block {
+    display: none;
+  }
+  .w-full {
+    display: flex !important;
+  }
 }
 
 .splash_img {
