@@ -29,12 +29,12 @@
   background-position: 25% 0%; */
 }
 
-.arrow {
-  background-image: url(../img/komprimeret_splash.webp);
-  /* height: 150vh;
-  width: 100%;
-  background-size: cover; */
-}
+/* .arrow {
+  background-image: url(../svg/arrow.svg);
+  height: 50vh;
+  width: 40%;
+  background-size: cover;
+} */
 
 .programs {
   background-image: url(../img/komprimeret_splash.webp);
