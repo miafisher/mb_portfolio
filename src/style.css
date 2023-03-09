@@ -9,6 +9,13 @@
   background-position: 50%;
 }
 
+.logo_bottom {
+  /* height: 250px; */
+  background-size: cover;
+  width: 200px;
+  background-position: 50%;
+}
+
 .w-full {
   display: none;
 }
@@ -29,12 +36,20 @@
   background-position: 25% 0%; */
 }
 
-/* .arrow {
-  background-image: url(../svg/arrow.svg);
-  height: 50vh;
-  width: 40%;
-  background-size: cover;
-} */
+.bounce {
+  animation: bounce 1s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
 
 .programs {
   background-image: url(../img/komprimeret_splash.webp);
