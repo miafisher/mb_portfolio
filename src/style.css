@@ -52,10 +52,9 @@
 }
 
 .programs {
-  background-image: url(../img/komprimeret_splash.webp);
-  /* height: 150vh;
-  width: 100%;
-  background-size: cover; */
+  height: 100px;
+  width: 100px;
+  background-size: cover;
 }
 
 .profile_img {
