@@ -23,7 +23,11 @@ module.exports = {
         lg: "1024px",
         xl: "1423px",
       },
+      gridRow: {
+        "span-16": "span 16 / span 16",
+      },
     },
   },
+
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
