@@ -29,12 +29,12 @@
 }
 
 .splash_img {
-  /* background-image: url(../img/portfolio_img.JPG); */
-  height: 100vh;
+  background-image: url(../img/IMG_6711.jpg);
+  height: 140vh;
   width: 100%;
   background-size: cover;
-  background-position: 25% 0%;
-  opacity: 50%;
+  background-position: 25% 15%;
+  opacity: 75%;
 }
 
 .bounce {
