@@ -1,4 +1,5 @@
 import "./style.css";
+import { animate, stagger, inView, scroll, timeline } from "motion";
 
 // burgermenu
 const btn = document.querySelector(".block button");
@@ -19,3 +20,7 @@ function toggleMenu() {
 }
 
 btn.addEventListener("click", toggleMenu);
+
+animate("body", { opacity: [0, 1] }, { duration: 5 });
+
+scroll(animate(".progress-bar", { scaleX: [0, 1] }));
