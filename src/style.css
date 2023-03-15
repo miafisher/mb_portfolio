@@ -64,9 +64,42 @@
   background-size: cover; */
 }
 
-.arrow_top {
-  background-image: url(../img/komprimeret_splash.webp);
-  /* height: 150vh;
+.banner {
+  /* overflow: hidden; */
+  white-space: nowrap;
+  animation: scroll-left 18s linear infinite;
+  display: inline-block;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* .line {
+  height: 2px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
   width: 100%;
-  background-size: cover; */
+} */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  animation: pulse 1s infinite;
 }
