@@ -67,7 +67,7 @@
 .banner {
   /* overflow: hidden; */
   white-space: nowrap;
-  animation: scroll-left 18s linear infinite;
+  animation: scroll-left 20s linear infinite;
   display: inline-block;
 }
 
@@ -101,5 +101,5 @@
 }
 
 button {
-  animation: pulse 1s infinite;
+  animation: pulse 2s infinite;
 }
