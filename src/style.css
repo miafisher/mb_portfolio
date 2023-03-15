@@ -29,7 +29,7 @@
 }
 
 .splash_img {
-  background-image: url(../img/IMG_6711.jpg);
+  background-image: url(../img/IMG_6711.webp);
   height: 140vh;
   width: 100%;
   background-size: cover;
@@ -55,13 +55,6 @@
 .programs {
   height: 50px;
   width: 50px;
-}
-
-.profile_img {
-  background-image: url(../img/komprimeret_splash.webp);
-  /* height: 150vh;
-  width: 100%;
-  background-size: cover; */
 }
 
 .banner {

@@ -6,6 +6,8 @@ module.exports = {
       moon: "#5F5E66",
       sage: "#ACA297",
       ivory: "#EFEBE0",
+      purple: "#7c459c",
+      orange: "#f25c05",
     },
 
     fontFamily: {
