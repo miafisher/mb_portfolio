@@ -28,15 +28,6 @@
   }
 }
 
-.splash_img {
-  background-image: url(../img/IMG_6711.webp);
-  height: 140vh;
-  width: 100%;
-  background-size: cover;
-  background-position: 25% 15%;
-  opacity: 75%;
-}
-
 .bounce {
   animation: bounce 1s infinite;
   animation-direction: alternate-reverse;
@@ -52,10 +43,10 @@
   }
 }
 
-.programs {
+/* .programs {
   height: 50px;
   width: 50px;
-}
+} */
 
 .banner {
   /* overflow: hidden; */
