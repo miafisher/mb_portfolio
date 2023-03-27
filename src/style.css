@@ -2,32 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-  /* height: 250px; */
-  background-size: cover;
-  width: 100px;
-  background-position: 50%;
-}
-
-.logo_bottom {
-  /* height: 250px; */
-  background-size: cover;
-  width: 200px;
-  background-position: 50%;
-}
-
-.w-full {
-  display: none;
-}
-@media (min-width: 640px) {
-  .block {
-    display: none;
-  }
-  .w-full {
-    display: flex !important;
-  }
-}
-
 .bounce {
   animation: bounce 1s infinite;
   animation-direction: alternate-reverse;
@@ -42,11 +16,6 @@
     transform: translateY(50px);
   }
 }
-
-/* .programs {
-  height: 50px;
-  width: 50px;
-} */
 
 .banner {
   /* overflow: hidden; */
@@ -64,14 +33,6 @@
   }
 }
 
-/* .line {
-  height: 2px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  width: 100%;
-} */
-
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -86,4 +47,22 @@
 
 button {
   animation: pulse 2s infinite;
+}
+
+.bg {
+  background-image: url(../svg/portfolio_bg.svg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.rotate-heading {
+  transform: rotate(-90deg);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #5f5e66;
 }
