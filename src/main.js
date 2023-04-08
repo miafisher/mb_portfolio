@@ -19,8 +19,4 @@ import { animate, stagger, inView, scroll, timeline } from "motion";
 //   }
 // }
 
-btn.addEventListener("click", toggleMenu);
-
 animate("body", { opacity: [0, 1] }, { duration: 3 });
-
-scroll(animate(".progress-bar", { scaleX: [0, 1] }));
