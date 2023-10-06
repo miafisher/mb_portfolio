@@ -1,22 +1,28 @@
 import "./style.css";
 import { animate, stagger, inView, scroll, timeline } from "motion";
 
-// burgermenu
-// const btn = document.querySelector(".block button");
-// const menu = document.querySelector(".main-menu");
-// const menuimg = btn.querySelector("img");
+// const menu = document.querySelector(".menu");
+// const menuItems = document.querySelectorAll(".menuItem");
+// const menubtn = document.querySelector(".menu_toggle_btn");
+// const closeIcon = document.querySelector(".closeIcon");
+// const menuIcon = document.querySelector(".menuIcon");
 
 // function toggleMenu() {
-//   menu.classList.toggle("shown");
-//   const menuShown = menu.classList.contains("shown");
-
-//   if (menuShown) {
-//     console.log(menuShown); // se i konsollen
-//     menuimg.src = "../svg/luk.svg";
+//   if (menu.classList.contains("showMenu")) {
+//     menu.classList.remove("showMenu");
+//     closeIcon.style.display = "none";
+//     menuIcon.style.display = "block";
 //   } else {
-//     console.log(menuShown);
-//     menuimg.src = "../svg/burgermenu.svg";
+//     menu.classList.add("showMenu");
+//     closeIcon.style.display = "block";
+//     menuIcon.style.display = "none";
 //   }
 // }
+
+// menubtn.addEventListener("click", toggleMenu);
+
+// menuItems.forEach(function (menuItem) {
+//   menuItem.addEventListener("click", toggleMenu);
+// });
 
 animate("body", { opacity: [0, 1] }, { duration: 3 });

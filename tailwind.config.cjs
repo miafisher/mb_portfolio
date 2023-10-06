@@ -5,15 +5,14 @@ module.exports = {
     colors: {
       moon: "#5F5E66",
       sage: "#ACA297",
-      ivory: "#EFEBE0",
+      ivory: "#F2F2F2",
+      coconut: "#F0EDE5",
       purple: "#7c459c",
       orange: "#f25c05",
     },
 
     fontFamily: {
       montserrat: "'montserrat', sans-serif;",
-      archivo: "'archivo', sans-serif;",
-      tangerine: "'tangerine', sans-serif;",
     },
 
     extend: {
