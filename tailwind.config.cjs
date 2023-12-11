@@ -5,10 +5,9 @@ module.exports = {
     colors: {
       moon: "#5F5E66",
       sage: "#ACA297",
-      ivory: "#F2F2F2",
+      ivory: "#FEFCF9",
       coconut: "#F0EDE5",
-      purple: "#7c459c",
-      orange: "#f25c05",
+      purple: "#4f5cd6",
     },
 
     fontFamily: {

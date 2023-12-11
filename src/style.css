@@ -54,10 +54,11 @@ button {
 }
 
 .bg {
-  background-image: url(../svg/portfolio_bg.svg);
-  height: 100vh;
+  background-image: url(../img/img4.jpg);
+  height: 90vh;
   width: 100%;
   background-size: cover;
+  background-position: 40% 40%;
 }
 
 h1,
@@ -66,4 +67,57 @@ h3,
 p {
   font-family: "montserrat";
   color: #5f5e66;
+}
+
+.menuItem {
+  text-decoration: none;
+}
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: #f0ede5;
+    text-decoration: none;
+  }
+
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+
+  .menu_toggle_btn {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #5f5e66;
+    color: #f0ede5;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
 }
