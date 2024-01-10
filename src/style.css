@@ -54,11 +54,11 @@ button {
 }
 
 .bg {
-  background-image: url(../img/img4.jpg);
-  height: 90vh;
+  background-image: url(../img/opdateret.jpg);
+  height: 70vh;
   width: 100%;
   background-size: cover;
-  background-position: 40% 40%;
+  background-position: 40% 50%;
 }
 
 h1,

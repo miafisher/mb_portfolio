@@ -6,7 +6,7 @@ module.exports = {
       moon: "#5F5E66",
       sage: "#ACA297",
       ivory: "#FEFCF9",
-      coconut: "#F0EDE5",
+      coconut: "#EFE4D3",
       purple: "#4f5cd6",
     },
 
